@@ -15,9 +15,9 @@ Enoch is an open-source control plane for running bounded AI research workflows 
 
 ### AI-generated research corpus
 
-The companion corpus currently indexes **159 AI-generated research artifacts** packaged with provenance metadata, claim ledgers, evidence bundles, manifests, and packaging/provenance reports.
+The companion corpus currently indexes **159 AI-generated research artifacts** with provenance metadata, claim-ledger files, evidence bundles, manifests, packaging/provenance reports, and a separate strict claim/evidence audit report. Current status is **159/159 packaging/provenance lint passes** and **0/159 strict claim/evidence audit passes**.
 
-Important framing: these papers are released as AI-generated artifacts. I am not claiming human authorship of the paper prose, research claims, or generated results. The packaging/provenance gate does not imply peer review, scientific correctness, or independent replication. The work I am highlighting is the system design, control-plane implementation, evidence workflow, and public packaging around those outputs.
+Important framing: these papers are released as AI-generated artifacts. I am not claiming human authorship of the paper prose, research claims, or generated results. The packaging/provenance lint does not imply peer review, scientific correctness, independent replication, or deep claim/evidence auditability. The work I am highlighting is the system design, control-plane implementation, evidence workflow, and public packaging around those outputs.
 
 ## What I care about
 
@@ -39,5 +39,5 @@ Important framing: these papers are released as AI-generated artifacts. I am not
 ## Current public repos
 
 - [`enoch-agentic-research-system`](https://github.com/alias8818/enoch-agentic-research-system) — control-plane code, deployment docs, dashboard, alerting, and paper workflow
-- [`enoch-ai-research-corpus`](https://github.com/alias8818/enoch-ai-research-corpus) — generated research artifacts with provenance/evidence metadata
+- [`enoch-ai-research-corpus`](https://github.com/alias8818/enoch-ai-research-corpus) — generated research artifacts with provenance/evidence metadata plus strict claim/evidence audit status
 - [Enoch Docs](https://solo-09d10f60.mintlify.app/) — hosted operator and reviewer documentation for the system, corpus, deployment path, and release boundaries ([source](https://github.com/alias8818/enoch-docs))
