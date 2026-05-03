@@ -15,9 +15,9 @@ Enoch is an open-source control plane for running bounded AI research workflows 
 
 ### AI-generated research corpus
 
-The companion corpus contains **120 AI-generated research artifacts** packaged with provenance metadata, claim ledgers, evidence bundles, manifests, and quality reports.
+The companion corpus currently indexes **159 AI-generated research artifacts** packaged with provenance metadata, claim ledgers, evidence bundles, manifests, and packaging/provenance reports.
 
-Important framing: these papers are released as AI-generated artifacts. I am not claiming human authorship of the paper prose, research claims, or generated results. The work I am highlighting is the system design, control-plane implementation, evidence workflow, and public packaging around those outputs.
+Important framing: these papers are released as AI-generated artifacts. I am not claiming human authorship of the paper prose, research claims, or generated results. The packaging/provenance gate does not imply peer review, scientific correctness, or independent replication. The work I am highlighting is the system design, control-plane implementation, evidence workflow, and public packaging around those outputs.
 
 ## What I care about
 
