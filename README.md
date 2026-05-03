@@ -11,7 +11,7 @@ Enoch is an open-source control plane for running bounded AI research workflows 
 - Launch site: <https://alias8818.github.io/>
 - System repo: <https://github.com/alias8818/enoch-agentic-research-system>
 - Research corpus: <https://github.com/alias8818/enoch-ai-research-corpus>
-- Documentation source: <https://github.com/alias8818/enoch-docs>
+- Documentation website: <https://solo-09d10f60.mintlify.app/>
 
 ### AI-generated research corpus
 
@@ -40,4 +40,4 @@ Important framing: these papers are released as AI-generated artifacts. I am not
 
 - [`enoch-agentic-research-system`](https://github.com/alias8818/enoch-agentic-research-system) — control-plane code, deployment docs, dashboard, alerting, and paper workflow
 - [`enoch-ai-research-corpus`](https://github.com/alias8818/enoch-ai-research-corpus) — generated research artifacts with provenance/evidence metadata
-- [`enoch-docs`](https://github.com/alias8818/enoch-docs) — source-grounded operator and reviewer documentation for the system, corpus, and release boundaries
+- [Enoch Docs](https://solo-09d10f60.mintlify.app/) — hosted operator and reviewer documentation for the system, corpus, deployment path, and release boundaries ([source](https://github.com/alias8818/enoch-docs))
