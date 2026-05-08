@@ -1,6 +1,12 @@
 # alias8818
 
-I build **agentic research infrastructure**: local-control-plane systems, queue safety, worker orchestration, evidence capture, and AI-generated research artifact pipelines.
+I build **auditable AI infrastructure**: control planes, audit gates, and Blackwell (sm_121) kernel debugging for GPU work.
+
+## Currently
+
+**May 2026** — Shipping polish on Enoch: the corpus strict-audit gap, a "3 that pass" section on the landing page, and kernel-work-first ordering on the personal site. Open to AI infrastructure roles; I'm the person who reads Xid error codes *and* writes the control plane that notices the worker died. Oklahoma City.
+
+---
 
 ## Featured work
 
@@ -15,7 +21,7 @@ Enoch is an open-source control plane for running bounded AI research workflows 
 
 ### AI-generated research corpus
 
-The companion corpus currently indexes **497 AI-generated research artifacts** with provenance metadata, claim-ledger files, evidence bundles, manifests, packaging/provenance reports, and a separate strict claim/evidence audit report. Current status is **497/497 packaging/provenance lint passes** and **3/497 strict claim/evidence audit passes**.
+The companion corpus indexes **497 AI-generated research artifacts**. Current status: **497/497 pass packaging/provenance lint** and **3/497 pass strict claim/evidence audit**. The 3/497 number is not a rollout gap — it is the feature. I built the strict-audit gate and headline its failure rate on the project's front page, because the packaging/provenance lint alone would let readers over-trust the corpus.
 
 Important framing: these papers are released as AI-generated artifacts. I am not claiming human authorship of the paper prose, research claims, or generated results. The packaging/provenance lint does not imply peer review, scientific correctness, independent replication, or deep claim/evidence auditability. The work I am highlighting is the system design, control-plane implementation, evidence workflow, and public packaging around those outputs.
 
@@ -31,7 +37,7 @@ Important framing: these papers are released as AI-generated artifacts. I am not
 ## Stack and systems
 
 - Python, FastAPI, SQLite-backed control state
-- LangGraph-era control-plane boundaries
+- FastAPI control-plane boundaries with a hard state contract
 - GitHub Actions, branch protections, release packaging
 - Local worker orchestration and wake-gated execution
 - Codex-assisted development and oh-my-codex/OMX operations
