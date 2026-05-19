@@ -17,11 +17,12 @@ Enoch is an open-source control plane for running bounded AI research workflows 
 - Launch site: <https://alias8818.github.io/>
 - System repo: <https://github.com/alias8818/enoch-agentic-research-system>
 - Research corpus: <https://github.com/alias8818/enoch-ai-research-corpus>
+- Promising signals: <https://github.com/alias8818/enoch-promising-signals>
 - Documentation website: <https://solo-09d10f60.mintlify.app/>
 
 ### AI-generated research corpus
 
-The companion corpus indexes **388 canonical AI-generated research artifacts**. Current status: **388/388 pass packaging/provenance lint** and **388/388 pass strict claim/evidence audit**. I built the strict-audit gate and keep it visible on the project's front page, because the packaging/provenance lint alone would let readers over-trust the corpus.
+The companion corpus indexes **388 canonical AI-generated research artifacts**. A separate promising-signals repo preserves **4 bounded useful/scale-blocked leads** that are not validated papers and not counted as corpus papers. Current status: **388/388 pass packaging/provenance lint** and **388/388 pass strict claim/evidence audit**. I built the strict-audit gate and keep it visible on the project's front page, because the packaging/provenance lint alone would let readers over-trust the corpus.
 
 Important framing: these papers are released as AI-generated artifacts. I am not claiming human authorship of the paper prose, research claims, or generated results. The packaging/provenance lint does not imply peer review, scientific correctness, independent replication, or deep claim/evidence auditability. The work I am highlighting is the system design, control-plane implementation, evidence workflow, and public packaging around those outputs.
 
@@ -46,4 +47,5 @@ Important framing: these papers are released as AI-generated artifacts. I am not
 
 - [`enoch-agentic-research-system`](https://github.com/alias8818/enoch-agentic-research-system) — control-plane code, deployment docs, dashboard, alerting, and paper workflow
 - [`enoch-ai-research-corpus`](https://github.com/alias8818/enoch-ai-research-corpus) — generated research artifacts with provenance/evidence metadata plus strict claim/evidence audit status
+- [`enoch-promising-signals`](https://github.com/alias8818/enoch-promising-signals) — bounded useful or compute-scale-blocked no-paper signals preserved for larger-compute follow-up
 - [Enoch Docs](https://solo-09d10f60.mintlify.app/) — hosted operator and reviewer documentation for the system, corpus, deployment path, and release boundaries ([source](https://github.com/alias8818/enoch-docs))
